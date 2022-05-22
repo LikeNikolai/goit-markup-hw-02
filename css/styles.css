@@ -1,0 +1,116 @@
+/* Colors 
+Main text color #212121
+Secondary text color #757575
+Background color #FFFFFF
+Active color #2196F3
+Hero color #2F303A
+OurTeam color #F5F4FA
+*/
+:root {
+  --background-color: #ffffff;
+  --maintext-color: #212121;
+  --additionaltext-color: #757575;
+  --active-color: #2196f3;
+}
+body {
+  color: var(--maintext-color);
+}
+
+.header {
+}
+.logo {
+  color: var(--active-color);
+}
+.header__logo > span {
+  color: var(--maintext-color);
+}
+.nav {
+}
+.nav-list {
+  list-style: none;
+}
+.nav__item {
+}
+.nav__link {
+  color: var(--maintext-color);
+}
+.nav__link:focus,
+.nav__link:hover {
+  color: var(--active-color);
+}
+.nav__link_active {
+  color: var(--active-color);
+}
+.contacts {
+}
+.header-contacts {
+}
+.contact__item {
+}
+.contact__link {
+  color: var(--additionaltext-color);
+}
+.contact__link:focus,
+.contact__link:hover {
+  color: var(--active-color);
+}
+.main {
+}
+.section {
+}
+.hero {
+}
+.hero-title {
+  color: var(--background-color);
+}
+.qualities {
+}
+.qualities-list {
+}
+.qualities__item {
+}
+.qualities__title {
+}
+.qualities__descr {
+  color: var(--additionaltext-color);
+}
+.works {
+}
+.title {
+}
+.works-title {
+}
+.works-list {
+}
+.works__item {
+}
+.works__img {
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+}
+.team__member {
+}
+.team__image {
+}
+.team__name {
+}
+.team__job {
+  color: var(--additionaltext-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer__logo {
+}
+.footer__logo span {
+  color: var(--background-color);
+}
+.footer__contacts {
+  color: var(--additionaltext-color);
+}
+.contacts__place {
+  color: var(--background-color);
+}
