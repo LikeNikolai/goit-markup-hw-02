@@ -1,0 +1,50 @@
+.main {
+}
+.section {
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--background-color);
+}
+
+.hero-button {
+}
+.qualities {
+}
+.qualities-list {
+}
+.qualities__item {
+}
+.qualities__title {
+}
+.qualities__descr {
+  color: var(--additionaltext-color);
+}
+.works {
+}
+.title {
+}
+.works-title {
+}
+.works-list {
+}
+.works__item {
+}
+.works__img {
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+}
+.team__member {
+}
+.team__image {
+}
+.team__name {
+}
+.team__job {
+  color: var(--additionaltext-color);
+}
