@@ -199,12 +199,13 @@ body {
 .footer__contacts {
   color: #ffffff99;
   font-size: 14px;
-  line-height: 1.71%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contacts__place {
   color: var(--background-color);
-  line-height: 1.71%;
+  line-height: 1.71;
 }
 
 .cards-page {
